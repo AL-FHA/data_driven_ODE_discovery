@@ -1,0 +1,20 @@
+lorenz_paper_short.csv - 10 seconds, dt=0.002, IC=[-8,8,27]
+Fine resolution, similar to paper examples
+5001 data points
+
+lorenz_paper_medium.csv - 25 seconds, dt=0.01, IC=[-8,8,27]
+Balanced duration and resolution
+2501 data points
+
+lorenz_paper_long.csv - 40 seconds, dt=0.01, IC=[-8,8,27]
+Comprehensive trajectory
+4001 data points
+
+lorenz_original.csv - 25 seconds, dt=0.01, IC=[1,1,1]
+2501 data points
+
+Hyperparameter Config:
+For lorenz_papershort.csv: Set DURATION=10.0, DT=0.002
+For lorenz_paper_medium.csv: Set DURATION=25.0, DT=0.01
+For lorenz_paper_long.csv: Set DURATION=40.0, DT=0.01
+For lorenz_original.csv: Set DURATION=25.0, DT=0.01
